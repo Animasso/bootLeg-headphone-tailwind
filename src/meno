@@ -1,0 +1,3 @@
+pour le dark mode mettre dans le fichier config :darkMode: "class",
+creer un state avec dark le mettre sur le onclick 
+et {`${darkMode ? "dark" : ""}`} dans le classname
