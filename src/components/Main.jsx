@@ -5,10 +5,10 @@ import HeadRed from "../assets/redhead.png";
 import HeadYellow from "../assets/yellowh.png";
 import HeadBlack from "../assets/blackh.png";
 
-export const Header = () => {
+export const Main = () => {
   return (
     <>
-      <header className="max-w-7xl m-auto h-20 border-b flex justify-between items-center">
+      <header className="max-w-7xl h-28 m-auto sm:h-20 border-b flex flex-col sm:flex-row  max-sm:mt-3 justify-between items-center">
         <div className="text-4xl text-violet-900">HeadphoneCool</div>
         <nav className=" flex justify-around ">
           <ul className=" w-72 flex justify-around text-2xl text-sky-900">
@@ -22,8 +22,8 @@ export const Header = () => {
         <section className=" p-4 text-center my-20  text-gray-500 shadow-md shadow-black/60">
           <h1 className="text-2xl">Hyper Super Duper Headphones </h1>
           <p className=" mt-4 text-xl">
-            Get the lasts Headphones at a very cheap price with a very good.
-            quality
+            Get the lasts Headphones at a very cheap price with a very good
+            quality.
           </p>
           <button className=" text-lg w-28 my-4 bg-blue-500 rounded p-3 shadow-lg  text-slate-50 hover:bg-blue-900">
             See More

@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import "./App.css";
-import { Header } from "./components/Header";
+import { Main } from "./components/Main";
+import { Footer } from "./components/Footer";
 
 function App() {
   // const [darkMode, setDarkMode] = useState(false);
@@ -11,7 +12,8 @@ function App() {
   return (
     <div>
       {/* div className={`${darkMode ? "dark" : ""}`} */}
-      <Header />
+      <Main />
+      <Footer />
       {/* <button onClick={handleDarkmode}>Change mode</button> */}
     </div>
   );
